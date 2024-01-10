@@ -9,14 +9,7 @@ UDP, or User Datagram Protocol, is a lightweight and connectionless transport pr
 In simple terms, TCP prioritizes dependable, precise data transfer over speed. UDP, on the other hand, emphasizes speed and does not give any guarantees for packet sequencing or transmission.
 
 implemented 2 types of multi-threaded web server which are TCP and UDP, we have selected a performance metric for evaluating. We have used that to evaluate a performance metric for both. We have used multi-threading concept for evaluation. Finally, we did analysis on this performance metric to determine both TCP and UDP based multi-threaded servers. Time taken by client side for getting the number of occurences
-Number of occurences or clients
-Time taken      UDP              TCP
-5               0.015002         0.012014
-10              0.01601          1.040263
-15              0.017            1.041377
-20              0.024992         1.043199
-25              0.029499         1.539783
-30              0.029503         1.547342
+
 
 
 
